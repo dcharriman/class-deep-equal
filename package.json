@@ -4,7 +4,7 @@
   "description": "Deep equal for JS classes. Equal objects are the same class/type. Multiple / circular references OK",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -w src/**/test/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +13,13 @@
   "keywords": ["deep equal", "class"],
   "author": "Donald C. Hariman <harri.soft999@gmail.com>",
   "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/register": "^7.15.3",
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3"
+  },
   "bugs": {
     "url": "https://github.com/dcharriman/class-deep-equal/issues"
   },
