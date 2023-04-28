@@ -1,1 +1,1 @@
-export { default } from './src/classDeepEqual/classDeepEqual'
+export { classDeepEqual as default } from './src/classDeepEqual'
